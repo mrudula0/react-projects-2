@@ -5,6 +5,7 @@ import AgeCalculator from "./Components/AgeCalculator";
 import ReadMoreToggle from "./TextBtnToggle/ReadMoreToggle";
 import CopyToClipboard from "./CopyToClipboard";
 import PasswordValidation from "./GeneratePassword/PasswordValidation";
+import ScrollToTop from "./ScrollToTop";
 function App() {
   return (
     <div className="App">
@@ -13,7 +14,8 @@ function App() {
       {/* <TabSwitcher /> */}
       {/* <ReadMoreToggle /> */}
       {/* <CopyToClipboard /> */}
-      <PasswordValidation />
+      {/* <PasswordValidation /> */}
+      <ScrollToTop />
     </div>
   );
 }
