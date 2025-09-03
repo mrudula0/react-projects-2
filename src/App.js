@@ -6,6 +6,7 @@ import ReadMoreToggle from "./TextBtnToggle/ReadMoreToggle";
 import CopyToClipboard from "./CopyToClipboard";
 import PasswordValidation from "./GeneratePassword/PasswordValidation";
 import ScrollToTop from "./ScrollToTop";
+import GuessTheNumber from "./GuessTheNumber";
 function App() {
   return (
     <div className="App">
@@ -15,7 +16,8 @@ function App() {
       {/* <ReadMoreToggle /> */}
       {/* <CopyToClipboard /> */}
       {/* <PasswordValidation /> */}
-      <ScrollToTop />
+      {/* <ScrollToTop /> */}
+      <GuessTheNumber />
     </div>
   );
 }
